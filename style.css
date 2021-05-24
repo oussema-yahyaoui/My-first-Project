@@ -20,3 +20,38 @@ backdrop-filter: blur(5px);
 box-shadow: 0 0 55px black;
 
 }
+.addtext{
+    position: absolute;
+    height: 5px;
+    width: 60%;
+    margin: auto;
+    top: 25px;
+    right: 0;
+    left:0;
+    outline: none;
+    border: none;
+    padding: 20px;
+    padding-right: 50px;
+
+}
+.addbutton{
+    position: absolute;
+    height: 40px ;
+    width: 40px;
+    margin: auto;
+    top:15px;
+    right: 35px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: 0;
+}
+.addbutton img{
+    position:absolute;
+    height: 40px;
+    margin: auto;
+    top: 25px;;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
