@@ -6,15 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>To Do List</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+<title>To Do List</title>
 </head>
 
 <body>
-    <div class="container">
-        <input type="text" class="addtext" />
-        <button class="addbutton"><img src="image/img 2.png"></button>
-        <div class="list"></div>
+    <div>
+        <input type="text" class="addtext" placeholder="Add tasks here" />
+        <button class="addbutton" onclick="addTask()"> Add task </button>
+        <button class="clearbutton"> clear </button>
     </div>
+    <!-- <div class="container"> -->
+
+    <div id='tasklist' style="margin-top: 10%; margin-bottom: 10%;">
+
+    </div>
+    <div class="list">
+
+    </div>
+    <!-- </div> -->
 
     <script src="main.js"></script>
 </body>
